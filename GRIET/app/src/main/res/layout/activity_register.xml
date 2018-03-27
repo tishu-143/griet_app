@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tishant.griet.Register">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="PLEASE ENTER THE NAME OF STUDENT"
+        android:textAlignment="center"/>
+
+
+    <EditText
+        android:id="@+id/roll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="PLEASE ENTER THE ROLL NUMBER OF STUDENT"
+        android:layout_below="@+id/name"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="PLEASE ENTER THE PASSWORD"
+        android:layout_below="@+id/roll"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="PLEASE CONFIRM PASSWORD"
+        android:layout_below="@+id/pass1"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/submit_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:onClick="submitMyData"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pass2"/>
+
+</RelativeLayout>

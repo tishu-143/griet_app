@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    tools:context="com.example.tishant.griet.afterLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="PLEASE SELECT THE MONTH"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/jan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="53dp"
+        android:text="JANUARY" />
+
+    <Button
+        android:id="@+id/feb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/jan"
+        android:layout_centerHorizontal="true"
+        android:text="FEBRUARY" />
+
+    <Button
+        android:id="@+id/mar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/feb"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        android:text="MARCH" />
+
+    <Button
+        android:id="@+id/apr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/jan"
+        android:layout_below="@+id/jan"
+        android:layout_marginTop="37dp"
+        android:text="APRIL" />
+
+    <Button
+        android:id="@+id/may"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/feb"
+        android:layout_alignTop="@+id/apr"
+        android:text="MAY" />
+
+    <Button
+        android:id="@+id/jun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/may"
+        android:layout_alignEnd="@+id/mar"
+        android:text="JUNE" />
+
+    <Button
+        android:id="@+id/jul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/apr"
+        android:layout_below="@+id/apr"
+        android:layout_marginTop="27dp"
+        android:text="JULY" />
+
+    <Button
+        android:id="@+id/aug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/may"
+        android:layout_alignTop="@+id/jul"
+        android:text="AUGUST" />
+
+    <Button
+        android:id="@+id/sep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/aug"
+        android:layout_alignStart="@+id/jun"
+        android:text="SEPTEMBER" />
+
+    <Button
+        android:id="@+id/oct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/jul"
+        android:layout_below="@+id/jul"
+        android:layout_marginTop="37dp"
+        android:text="OCTOBER" />
+
+    <Button
+        android:id="@+id/nov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/oct"
+        android:layout_alignBottom="@+id/oct"
+        android:layout_alignStart="@+id/aug"
+        android:text="NOVEMBER" />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/nov"
+        android:layout_alignBottom="@+id/nov"
+        android:layout_alignStart="@+id/sep"
+        android:text="DECEMBER" />
+</RelativeLayout>
